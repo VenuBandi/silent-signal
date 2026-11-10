@@ -1,0 +1,34 @@
+# Dataset (custom-recorded — not redistributed)
+dataset/
+temp_recordings/
+*.mp4
+*.mov
+
+# Model weights (too large)
+*.pth
+*.pt
+*.h5
+*.pkl
+
+# MediaPipe task files
+*.task
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and reports
+logs/
+*.log
+
+# Allow result chart images
+!reports/images/*.png
+
+# OS
+.DS_Store
