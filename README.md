@@ -5,6 +5,8 @@
 Real-time emergency gesture recognition using MediaPipe keypoints and a Motion BiLSTM.<br>
 **9 gesture classes · 76.85% validation accuracy · Danger F1 = 0.91 · 2,563 FPS inference**
 
+[![GitHub stars](https://img.shields.io/github/stars/VenuBandi/silent-signal?style=for-the-badge&color=yellow)](https://github.com/VenuBandi/silent-signal/stargazers)
+
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-Keypoints-blue)](https://mediapipe.dev)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -97,7 +99,7 @@ pip install -r requirements.txt
 jupyter lab notebooks/Silent_Signal_Training.ipynb
 ```
 
-Requires a webcam and MediaPipe. The trained model weights are not included in this repo — run the training notebook to produce `final_9_action_motion_bilstm.pth`.
+Requires a webcam and MediaPipe. The trained model weights are not included — run the training notebook to produce `final_9_action_motion_bilstm.pth`.
 
 ## Safety Override
 
@@ -117,3 +119,11 @@ A rule-based layer wraps the model output: sustained eye closure (~2 seconds) tr
 ## License
 
 MIT
+
+---
+
+<div align="center">
+
+If this project was useful or interesting, a ⭐ helps others find it.
+
+</div>
